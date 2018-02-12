@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="column-small-push-1 column-small-10">
+      {% for post in site.posts %}
+        <a class="list-group-element color-inherit" href="{{ post.url }}">
+          <h1 class="list-group-element-heading color-link">
+            {{ post.title | escape }}
+          </h1>
+          <p class="list-group-element-note">
+            {{ post.date | date: "%Y年%m月%d日" }}
+          </p>
+          <p class="list-group-element-description">
+            {{ post.description }}
+          </p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

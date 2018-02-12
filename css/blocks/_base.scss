@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  &,
+  &:active,
+  &:focus,
+  &:hover {
+    color: $color-text-link;
+    text-decoration: none;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #eee;
+  color: $color-text-dark-primary;
+  font-family: -apple-system, Meiryo, Hiragino Sans, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+
+iframe,
+img {
+  max-width: 100%;
+}

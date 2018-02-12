@@ -1,0 +1,41 @@
+.hero {
+  background-image: url(/images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #24292e;
+
+  &-description {
+    line-height: 1.5;
+  }
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-height: 500px;
+    }
+  }
+
+  &-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    a {
+      &,
+      &:active,
+      &:focus,
+      &:hover {
+        color: inherit;
+      }
+    }
+  }
+
+  &-overlay {
+    // background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    // padding-bottom: 8rem;
+    // padding-top: 10rem;
+  }
+}

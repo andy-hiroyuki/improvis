@@ -1,0 +1,89 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.125rem;
+  margin-bottom: 2rem;
+
+  &-actor {
+    align-items: center;
+    display: flex;
+    margin-top: 1rem;
+
+    &-icon {
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+
+    &-name {
+      color: $color-text-link;
+      font-weight: 500;
+      flex: 1;
+    }
+  }
+
+  &-actors {
+    margin-bottom: 2rem;
+  }
+
+  &-audio {
+    width: 100%;
+
+    &-wrapper {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-body,
+  &-footer,
+  &-header {
+    padding: 2rem;
+
+    @media (max-width: $width-screen-extra-small-maximum) {
+      padding: 1rem;
+    }
+  }
+
+  &-body + &-body,
+  &-body + &-footer,
+  &-header + &-body {
+    padding-top: 0;
+  }
+
+  &-body-large {
+    font-size: 1.2rem;
+  }
+
+  &-description {
+    margin-bottom: 1rem;
+  }
+
+  &-download {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: 0.25rem;
+  }
+
+  &-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  &-movie {
+    margin-bottom: 1rem;
+  }
+
+  &-note {
+    color: $color-text-dark-secondary;
+  }
+
+  &-paragraph {
+    & + & {
+      margin-top: 1em;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+}

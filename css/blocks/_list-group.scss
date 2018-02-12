@@ -1,0 +1,44 @@
+.list-group-element {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.125rem;
+  display: block;
+  padding: 1.5rem 2rem;
+
+  & + & {
+    margin-top: 1.5rem;
+  }
+
+  &-actor {
+    align-items: center;
+    display: flex;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+
+    &-icon {
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+
+    &-name {
+      color: $color-text-link;
+      font-weight: 500;
+      flex: 1;
+    }
+  }
+
+  &-description {
+    margin-top: 1rem;
+  }
+
+  &-heading {
+    color: $color-text-link;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  &-note {
+    color: $color-text-dark-secondary;
+    font-size: 0.9rem;
+  }
+}

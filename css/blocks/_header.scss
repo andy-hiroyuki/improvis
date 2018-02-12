@@ -1,0 +1,51 @@
+.header {
+  background-color: transparent;
+  font-weight: 800;
+  left: 0;
+  line-height: 2.4rem;
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  z-index: 1;
+
+  &,
+  a {
+    color: #24292e;
+  }
+
+  &,
+  a {
+    &:focus,
+    &:hover {
+      color: $color-text-light-secondary;
+    }
+  }
+
+  &-dark {
+    &,
+    a {
+      color: $color-text-dark-primary;
+    }
+
+    &,
+    a {
+      &:focus,
+      &:hover {
+        color: $color-text-dark-secondary;
+      }
+    }
+  }
+
+  &-logo {
+    float: left;
+  }
+
+  &-navigation {
+    float: right;
+
+    &-element {
+      display: inline-block;
+      padding: 0 1rem;
+    }
+  }
+}

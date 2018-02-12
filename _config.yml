@@ -1,0 +1,24 @@
+android_podcast_subscription_url:
+author: ANDY
+description: ANDYによるピアノ即興演奏を配信しています。
+description_long: ANDYによるピアノ即興演奏を配信しています。
+email: syon.xiii@gmail.com
+exclude:
+  - docker
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+hashtag: improvis
+itunes_podcast_url:
+keywords: music,piano,improvise
+language: ja
+markdown: kramdown
+permalink: /episode/:title/
+pushdog_subscription_url:
+sass:
+  sass_dir: css
+timezone: Asia/Tokyo
+title: 音の園 即興演奏 IMPROVIS
+url: http://improvis.oto-no-sono.com

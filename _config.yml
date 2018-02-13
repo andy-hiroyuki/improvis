@@ -2,7 +2,7 @@ android_podcast_subscription_url:
 author: ANDY
 description: ANDYによるピアノ即興演奏を配信しています。
 description_long: ANDYによるピアノ即興演奏を配信しています。
-email: syon.xiii@gmail.com
+email: andymole24@gmail.com
 exclude:
   - docker
   - docker-compose.yml

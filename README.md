@@ -27,7 +27,5 @@ mp3 ファイルの容量が大きく、初回起動時のビルドに時間が�
 
 __(fish shell)__
 ```
-$ docker run -it -v (pwd):/app improvis_jekyll bash
-
-root@09a0120712c0:/app# bundle exec jekyll build
+$ docker run -it -v (pwd):/app improvis_jekyll bundle exec jekyll build
 ```
